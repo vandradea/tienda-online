@@ -5,12 +5,7 @@ sprint:
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/vandradea/ms-course-youtube.git
-          searchPaths: config-data
-          username: ${GIT_USER}
-          password: ${GIT_PASSWORD}
-          default-label: "master"
+        bootstrap: true
   security:
     user:
       name: root
