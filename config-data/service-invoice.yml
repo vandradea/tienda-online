@@ -45,12 +45,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8099/eureka/
-#Habilitar Hystrix y actuator
-Feign:
-  hystrix:
-    enable: true
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
